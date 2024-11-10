@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   const openForm = () => {
-    console.log("Contact form opening..."); // Debugging log
+    console.log("Contact form opening...");
     setShowForm(true);
     setMenu(false);
   };
@@ -48,7 +48,10 @@ const Navbar = () => {
           </nav>
 
           <div className="hidden lg:flex">
-            <Button title="Contact Us" onClick={openForm} />
+            {/* Link the Contact Us button to the "contactUs" section */}
+            <Link to="contactUs" spy={true} smooth={true} duration={500}>
+              <Button title="Contact Us" />
+            </Link>
           </div>
 
           {showForm && <Contact closeForm={closeForm} />}
@@ -73,12 +76,11 @@ const Navbar = () => {
           <Link to="blog" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer" onClick={closeMenu}>Blog</Link>
 
           <div className="lg:hidden">
-            <button
-              className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
-              onClick={openForm}
-            >
-              Contact Us
-            </button>
+            <Link to="contactUs" spy={true} smooth={true} duration={500} >
+              <button className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out">
+                Contact Us
+              </button>
+            </Link>
           </div>
         </div>
       </div>
