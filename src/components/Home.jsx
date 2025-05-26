@@ -6,10 +6,10 @@ const Home = () => {
     <div className="min-h-screen flex flex-col justify-center items-center lg:px-32 px-5 text-white bg-black bg-[url('assets/img/hero.jpg')] bg-no-repeat bg-cover bg-opacity-90" >
       <div className="w-full lg:w-4/5 space-y-5 mt-10 text-center lg:text-left">
         <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-        SBT Speciality Hospital and Ortho Care
+         SBT Speciality Orthopaedic Hospital
         </h1>
         <p className="text-sm md:text-base">
-        At SBT Speciality Ortho Care Hospital, we specialize in advanced, personalized orthopedic care to restore mobility, relieve pain, and enhance quality of life. With cutting-edge treatments and a dedicated team, we’re here to help you move confidently toward recovery.
+Regain your strength, mobility, and confidence with care you can trust. At SBT Speciality & Orthopaedic Hospital, we combine advanced treatments, compassionate professionals, and modern technology to deliver personalized care for every patient — from injury recovery to lifelong wellness.
         </p>
         
         <div className="flex justify-center lg:justify-start">

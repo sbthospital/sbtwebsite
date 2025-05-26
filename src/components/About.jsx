@@ -7,7 +7,7 @@ const About = () => {
       <div className=" w-full lg:w-3/4 space-y-4">
         <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
         <p className=" text-justify lg:text-start">
-        At SBT Speciality Hospital and Orthopedic, we are dedicated to providing world-class orthopedic care to help our patients regain their mobility, alleviate pain, and improve their quality of life.  
+        At SBT Speciality & Orthopaedic Hospital, we are dedicated to providing world-class orthopedic care to help our patients regain their mobility, alleviate pain, and improve their quality of life.  
         </p>
         <p className="text-justify lg:text-start">
         Our team of experienced orthopedic specialists, surgeons, and compassionate healthcare professionals uses the latest in medical technology and evidence-based practices to offer personalized treatment plans for each patient.

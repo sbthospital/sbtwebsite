@@ -88,7 +88,7 @@ const Doctors = () => {
       <div className="flex flex-col items-center lg:flex-row justify-between mb-10 lg:mb-0">
         <div>
           <h1 className="text-4xl font-semibold text-center lg:text-start">
-            Our Orthopedic Specialists
+            Our Specialists
           </h1>
           <p className="mt-2 text-center lg:text-start">
             Meet our team of expert orthopedic doctors dedicated to providing top-notch care for bone and joint health.
