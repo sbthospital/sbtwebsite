@@ -35,7 +35,7 @@ const Navbar = () => {
         >
           <div className="flex flex-row items-center cursor-pointer">
             <Link to="home" spy={true} smooth={true} duration={500}>
-              <h1 className="text-2xl font-semibold">SBT Speciality Hospital.</h1>
+              <h1 className="text-2xl font-semibold">SBT Speciality Orthopaedic Hospital</h1>
             </Link>
           </div>
 
@@ -44,7 +44,7 @@ const Navbar = () => {
             <Link to="about" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">About Us</Link>
             <Link to="services" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">Services</Link>
             <Link to="doctors" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">Doctors</Link>
-            <Link to="blog" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">Blog</Link>
+            <Link to="blog" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">Testimonials</Link>
           </nav>
 
           <div className="hidden lg:flex">

@@ -9,7 +9,7 @@ const ServicesCard = ({ icon, title, description }) => {
       <h1 className="font-semibold text-xl text-gray-800">{title}</h1>
       <p className="mt-2 text-gray-600">{description}</p>
       <h3 className="mt-4 text-backgroundColor font-semibold hover:text-[#ade9dc] transition duration-300 ease-in-out">
-        Learn more
+        See more
       </h3>
     </div>
   );

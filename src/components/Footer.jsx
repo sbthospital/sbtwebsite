@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="w-full md:w-1/4">
           <h1 className="font-semibold text-xl pb-4">SBT Speciality Hospital</h1>
           <p className="text-sm">
-          At SBT Speciality Hospital and Orthopedic, we are dedicated to providing world-class orthopedic care to help our patients regain their mobility, alleviate pain, and improve their quality of life.
+          At SBT Speciality & Orthopaedic Hospital, we are dedicated to providing world-class orthopedic care to help our patients regain their mobility, alleviate pain, and improve their quality of life.
           </p>
         </div>
         <div>
