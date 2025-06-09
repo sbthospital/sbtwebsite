@@ -45,7 +45,7 @@ extend: {
   const data = [
     {
       img: "/src/assets/img/doc1.jpg",
-      name: "Dr. Serena Mitchell",
+      name: "Dr. Nawaz Shareef shaik",
       specialties: "Orthopedic Surgeon",
     },
     {

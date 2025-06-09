@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
 import Doctors from "./components/Doctors";
+import Testimonial from "./components/Testimonial";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
 import ContactUsForm from "./components/ContactUsForm";
@@ -12,7 +13,6 @@ const App = () => {
   return (
     <div>
       <Navbar />
-
       <main>
         <div id="home">
           <Home />
@@ -30,12 +30,12 @@ const App = () => {
           <Doctors />
         </div>
 
-        <div id="blog">
-          <Blogs />
+        <div id="testimonial">
+          <Testimonial />
         </div>
         <div id="contactUs">
-          <ContactUsForm/>
-          </div>
+          <ContactUsForm />
+        </div>
       </main>
 
       <Footer />

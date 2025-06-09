@@ -7,40 +7,22 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 const Doctors = () => {
   const data = [
     {
-      img: "/src/assets/img/doc1.jpg",
-      name: "Dr. Serena Mitchell",
-      specialties: "Orthopedic Surgeon",
+      img: "/src/assets/img/Dr.jpg",
+      name: "Dr. Nawaz Shareef shaik",
+      specialties: "MS(ORTHO), FIJR",
       role: "Lead Orthopedic Surgeon",
     },
     {
-      img: "/src/assets/img/doc2.jpg",
-      name: "Dr. Julian Bennett",
-      specialties: "Orthopedic Specialist",
-      role: "Consultant Orthopedic Specialist",
+      img: "/src/assets/img/Madhu Lekha (1).jpg",
+      name: "Dr. T. Madhu lekha",
+      specialties: "M.B.B.S, MD General Medicine",
+      role: "Consultant General Physician and Diabetologist",
     },
     {
-      img: "/src/assets/img/doc3.jpg",
-      name: "Dr. Camila Rodriguez",
-      specialties: "Sports Medicine Specialist",
-      role: "Orthocare Sports Consultant",
-    },
-    {
-      img: "/src/assets/img/doc4.jpg",
-      name: "Dr. Victor Nguyen",
-      specialties: "Orthopedic Oncologist",
-      role: "Senior Orthopedic Oncologist",
-    },
-    {
-      img: "/src/assets/img/doc5.jpg",
-      name: "Dr. Ethan Carter",
-      specialties: "Pediatric Orthopedic Surgeon",
-      role: "Pediatric Orthopedic Lead",
-    },
-    {
-      img: "/src/assets/img/doc6.jpg",
-      name: "Dr. Olivia Martinez",
-      specialties: "Rehabilitation Specialist",
-      role: "Orthocare Rehabilitation Director",
+      img: "/src/assets/img/Lakshmi Prasanna reddy.jpg",
+      name: "Dr.M.Lakshmi prasanna reddy",
+      specialties: "M.B.B.S , MD Paediatrics",
+      role: "Consultant paediatrician",
     },
   ];
 

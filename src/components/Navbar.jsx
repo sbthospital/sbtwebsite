@@ -44,7 +44,8 @@ const Navbar = () => {
             <Link to="about" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">About Us</Link>
             <Link to="services" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">Services</Link>
             <Link to="doctors" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">Doctors</Link>
-            <Link to="blog" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">Testimonials</Link>
+            <Link to="testimonial" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer">Testimonials</Link>
+
           </nav>
 
           <div className="hidden lg:flex">
@@ -73,7 +74,7 @@ const Navbar = () => {
           <Link to="about" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer" onClick={closeMenu}>About Us</Link>
           <Link to="services" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer" onClick={closeMenu}>Services</Link>
           <Link to="doctors" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer" onClick={closeMenu}>Doctors</Link>
-          <Link to="blog" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer" onClick={closeMenu}>Blog</Link>
+          <Link to="testimonial" spy={true} smooth={true} duration={500} className="hover:text-hoverColor transition-all cursor-pointer" onClick={closeMenu}>Testimonials</Link>
 
           <div className="lg:hidden">
             <Link to="contactUs" spy={true} smooth={true} duration={500} >
